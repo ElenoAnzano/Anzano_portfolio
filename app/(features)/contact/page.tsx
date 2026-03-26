@@ -3,7 +3,7 @@ export default function Contact() {
     return (
 
         <div className="justify-center bg-gray-100 items-center h-screen bg-gray-100">
-            <h1 className="text-4xl p-10  text-gray-1000 font-bold mb-10 text-center">
+            <h1 className="text-4xl p-10 text-gray-1000 font-bold text-center">
                 Let's get in touch
             </h1>
             <div className="flex items-center gap-10 justify-center">
@@ -36,7 +36,7 @@ export default function Contact() {
                 <div className="border-1 border-gray-300 rounded-lg p-6">
                     <div className="flex gap-4">
                         <div className="flex flex-col w-1/2">
-                            <label className="text-gray-1000">First Name</label>
+                            <h2 className="text-gray-1000">First Name</h2>
                             <input
                                 type="text"
                                 placeholder="Your Name"
@@ -45,7 +45,7 @@ export default function Contact() {
                         </div>
 
                         <div className="flex flex-col w-1/2">
-                            <label className="text-gray-1000">Last Name</label>
+                            <h2 className="text-gray-1000">Last Name</h2>
                             <input 
                                 type="text"
                                 placeholder="Your Last Name"

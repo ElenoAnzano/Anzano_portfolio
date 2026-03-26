@@ -23,8 +23,8 @@ export function Experience() {
   return (
     <div className="flex items-center gap-5 justify-center h-100px w-200px">
       {experiences.map((experience) => (
-        <div key={experience.id} className="border-1 bg-white rounded-lg shadow-md p-6 mb-4 w-full max-w-md">
-          <h2 className="text-2xl font-semibold mb-2">{experience.title}</h2>
+        <div key={experience.id} className="border-2 border-gray-900 bg-white rounded-lg shadow-md p-6 mb-4 w-full max-w-md">
+          <h2 className="text-2xl text-gray-1000 font-semibold mb-2">{experience.title}</h2>
           <p className="text-gray-800">{experience.description}</p>
         </div>
       ))}
