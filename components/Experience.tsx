@@ -21,11 +21,11 @@ const experiences = [
 
 export function Experience() {
   return (
-    <div className="flex items-center gap-5 justify-center h-100px w-200px bg-gray-100">
+    <div className="flex items-center gap-5 justify-center h-100px w-200px">
       {experiences.map((experience) => (
-        <div key={experience.id} className="bg-gray-200 rounded-lg shadow-md p-6 mb-4 w-full max-w-md">
+        <div key={experience.id} className="border-1 rounded-lg shadow-md p-6 mb-4 w-full max-w-md">
           <h2 className="text-2xl font-semibold mb-2">{experience.title}</h2>
-          <p className="text-gray-600">{experience.description}</p>
+          <p className="text-gray-800">{experience.description}</p>
         </div>
       ))}
     </div>

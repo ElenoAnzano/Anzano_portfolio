@@ -2,7 +2,7 @@ import { FaFacebook, FaTwitter, FaGithub } from "react-icons/fa";
 export default function Contact() {
     return (
 
-        <div className="justify-center items-center h-screen bg-gray-100">
+        <div className="justify-center bg-gray-200 items-center h-screen bg-gray-100">
             <h1 className="text-4xl p-10     font-bold mb-10 text-center">
                 Let's get in touch
             </h1>
