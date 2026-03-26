@@ -15,7 +15,7 @@ export default function ProjectsPage() {
   });
 
   return (
-    <div className="p-6 bg-gray-200">
+    <div className="p-6 bg-gray-100">
       <h1 className=" text-2xl text-center font-bold p-5">Projects</h1>
       <input
         type="text"

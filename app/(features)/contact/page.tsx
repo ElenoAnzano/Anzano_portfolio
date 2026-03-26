@@ -2,20 +2,20 @@ import { FaFacebook, FaTwitter, FaGithub } from "react-icons/fa";
 export default function Contact() {
     return (
 
-        <div className="justify-center bg-gray-200 items-center h-screen bg-gray-100">
-            <h1 className="text-4xl p-10     font-bold mb-10 text-center">
+        <div className="justify-center bg-gray-100 items-center h-screen bg-gray-100">
+            <h1 className="text-4xl p-10  text-gray-1000 font-bold mb-10 text-center">
                 Let's get in touch
             </h1>
             <div className="flex items-center gap-10 justify-center">
                 <div className="w-full max-w-md flex flex-col gap-6">
                     <div className="border-1 border-gray-300 rounded-lg w-100 p-6">
-                        <h1 className="text-4xl font-bold">Email</h1>
+                        <h1 className="text-4xl text-gray-800 font-bold">Email</h1>
                         <p className="hover:text-blue-500 text-lg text-gray-600 mb-8">
                             elenoanzanojr123@gmail.com
                         </p>
                     </div>
                     <div className="border-1 border-gray-300 rounded-lg w-100 p-6">
-                        <h1 className="text-4xl font-bold">Phone</h1>
+                        <h1 className="text-4xl text-gray-800 font-bold">Phone</h1>
                         <p className="hover:text-blue-500 text-lg text-gray-600 mb-8">
                             0975-654-7380
                         </p>
@@ -36,27 +36,27 @@ export default function Contact() {
                 <div className="border-1 border-gray-300 rounded-lg p-6">
                     <div className="flex gap-4">
                         <div className="flex flex-col w-1/2">
-                            <label>First Name</label>
+                            <label className="text-gray-1000">First Name</label>
                             <input
                                 type="text"
                                 placeholder="Your Name"
-                                className="border border-gray-300 rounded-lg px-4 py-2 w-full"
+                                className="border text-gray-800 border-gray-300 rounded-lg px-4 py-2 w-full"
                             />
                         </div>
 
                         <div className="flex flex-col w-1/2">
-                            <label>Last Name</label>
-                            <input
+                            <label className="text-gray-1000">Last Name</label>
+                            <input 
                                 type="text"
                                 placeholder="Your Last Name"
-                                className="border border-gray-300 rounded-lg px-4 py-2 w-full"
+                                className="border text-gray-800 border-gray-300 rounded-lg px-4 py-2 w-full"
                             />
                         </div>
                     </div>
-                    <h2>Your Email</h2>
-                    <input type="email" placeholder="Your Email" className="border border-gray-300 rounded-lg px-4 py-2 mb-4 w-full" />
-                    <h2>Your Message</h2>
-                    <textarea placeholder="Your Message" className="border border-gray-300 rounded-lg px-4 py-2 mb-4 w-full h-32"></textarea>
+                    <h2 className="text-gray-800">Your Email</h2>
+                    <input type="email" placeholder="Your Email" className="border text-gray-800 border-gray-300 rounded-lg px-4 py-2 mb-4 w-full" />
+                    <h2 className="text-gray-800">Your Message</h2>
+                    <textarea placeholder="Your Message" className="border text-gray-800 border-gray-300 rounded-lg px-4 py-2 mb-4 w-full h-32"></textarea>
                     <button className="h-10 w-full bg-blue-500 text-white rounded-lg hover:bg-blue-600">Submit</button>
                 </div>
             </div>

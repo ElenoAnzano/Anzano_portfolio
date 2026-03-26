@@ -2,7 +2,7 @@ import Image from "next/image";
 import {Experience} from "@/components/Experience";
 export default function AboutHero() {
     return (
-        <div className="bg-gray-200">
+        <div className="bg-gray-100">
         <div className="flex flex-col items-center justify-center p-10">
             <Image className="rounded-full" src="/myphoto.jpg" alt="My Photo" width={150} height={150} />
             <p>Eleno Anzano Jr</p><br></br> 

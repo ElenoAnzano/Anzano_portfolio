@@ -3,7 +3,7 @@ import Image from "next/image"
 import { FaFacebook, FaTwitter, FaGithub } from "react-icons/fa";
 export default function Home() {
   return (
-    <div className="bg-gray-200">
+    <div className="bg-gray-100">
       <div className="flex items-center gap-30 justify-center h-screen">
         <div>
           <div className="max-w-md mx-auto">
