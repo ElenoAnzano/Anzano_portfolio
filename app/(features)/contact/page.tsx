@@ -40,7 +40,7 @@ export default function Contact() {
                             <input
                                 type="text"
                                 placeholder="Your Name"
-                                className="border text-gray-800 border-gray-300 rounded-lg px-4 py-2 w-full"
+                                className="border text-gray-300 border-gray-300 rounded-lg px-4 py-2 w-full"
                             />
                         </div>
 

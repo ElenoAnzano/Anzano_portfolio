@@ -24,7 +24,6 @@ export default function ProjectsPage() {
         onChange={(e) => setSearch(e.target.value)}
         className="border px-4 py-2 rounded-lg w-full mb-4"
       />
-
       <div className="flex gap-4 mb-6">
         {[
           { label: "All", value: "all" },
@@ -43,8 +42,8 @@ export default function ProjectsPage() {
             {btn.label}
           </button>
         ))}
-
       </div>
+
       <ProjectList projects={filteredProjects} />
     </div>
   );
