@@ -2,11 +2,11 @@ import { FaFacebook, FaTwitter, FaGithub } from "react-icons/fa";
 export default function Contact() {
     return (
 
-        <div className="justify-center items-center h-screen">
-            <h1 className="text-4xl p-10 font-bold mb-10 text-center">
+        <div className="justify-center">
+            <h1 className="text-4xl p-10 font-bold text-center">
                 Let's get in touch
             </h1>
-            <div className="flex items-center gap-10 justify-center">
+            <div className="flex gap-10 justify-center">
                 <div className="w-full max-w-md flex flex-col gap-6">
                     <div className="border-1 border-gray-300 rounded-lg w-100 p-6">
                         <h1 className="text-4xl font-bold">Email</h1>
@@ -40,7 +40,7 @@ export default function Contact() {
                             <input
                                 type="text"
                                 placeholder="Your Name"
-                                className="border text-gray-300 border-gray-300 rounded-lg px-4 py-2 w-full"
+                                className="border border-gray-300 rounded-lg px-4 py-2 w-full"
                             />
                         </div>
 

@@ -21,7 +21,7 @@ const experiences = [
 
 export function Experience() {
   return (
-    <div className="flex items-center gap-5 justify-center h-100px w-200px">
+    <div className="flex gap-5 p-5 justify-center h-full w-full">
       {experiences.map((experience) => (
         <div key={experience.id} className="border-2 rounded-lg shadow-md p-6 mb-4 w-full max-w-md">
           <h2 className="text-2xl font-semibold mb-2">{experience.title}</h2>
