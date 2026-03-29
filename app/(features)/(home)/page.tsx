@@ -7,7 +7,7 @@ export default function Home() {
       <div className="flex items-center gap-30 justify-center h-screen">
         <div>
           <div className="max-w-md mx-auto">
-            <h1 className="text-4xl font-bold mb-4">Hello, I'm Eleno</h1>
+            <h1 className="text-4xl font-bold mb-4">Hello, I&apos;m Eleno</h1>
             <p className="text-lg mb-8">
               a software developer who can creating unique and interactive projects. I enjoy turning ideas into engaging digital experiences and continuously learning new technologies to improve my skills
             </p>

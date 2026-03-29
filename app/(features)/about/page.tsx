@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {Experience} from "@/components/Experience";
+import Experience from "@/components/Experience";
 export default function AboutHero() {
     return (
         <div>

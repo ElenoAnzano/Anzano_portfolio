@@ -4,7 +4,7 @@ export default function Contact() {
 
         <div className="justify-center">
             <h1 className="text-4xl p-10 font-bold text-center">
-                Let's get in touch
+                Let&apos;s get in touch
             </h1>
             <div className="flex gap-10 justify-center">
                 <div className="w-full max-w-md flex flex-col gap-6">

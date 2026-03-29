@@ -19,7 +19,7 @@ const experiences = [
 }
 ];
 
-export function Experience() {
+export default function Experience() {
   return (
     <div className="flex gap-5 p-5 justify-center h-full w-full">
       {experiences.map((experience) => (
