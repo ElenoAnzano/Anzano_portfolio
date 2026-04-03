@@ -34,8 +34,25 @@ export default function Contact() {
                 </div>
 
                 <div className="border-1 border-gray-300 rounded-lg p-6">
-                    <h2 >Your Name</h2>
-                    <input type="text" placeholder="Your Name" className="border border-gray-300 rounded-lg px-4 py-2 mb-4 w-full" />
+                    <div className="flex gap-4">
+                        <div className="flex flex-col mb-4 w-1/2">
+                            <h2>First Name</h2>
+                            <input
+                                type="text"
+                                placeholder="Your Name"
+                                className="border border-gray-300 rounded-lg px-4 py-2 w-full"
+                            />
+                        </div>
+
+                        <div className="flex flex-col w-1/2">
+                            <h2 >Last Name</h2>
+                            <input 
+                                type="text"
+                                placeholder="Your Last Name"
+                                className="border border-gray-300 rounded-lg px-4 py-2 w-full"
+                            />
+                        </div>
+                    </div>
                     <h2 >Your Email</h2>
                     <input type="email" placeholder="Your Email" className="border border-gray-300 rounded-lg px-4 py-2 mb-4 w-full" />
                     <h2 >Your Message</h2>
