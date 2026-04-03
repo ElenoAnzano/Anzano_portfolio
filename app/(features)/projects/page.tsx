@@ -43,8 +43,9 @@ export default function ProjectsPage() {
           </button>
         ))}
       </div>
-
+      
       <ProjectList projects={filteredProjects} />
+      
     </div>
   );
 }
